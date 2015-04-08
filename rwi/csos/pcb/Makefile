@@ -1,4 +1,4 @@
-PROJECT=css
+PROJECT=csos
 
 LIB_DIR=../../../lib/
 SYM_DIR=$(LIB_DIR)sym/
