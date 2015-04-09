@@ -11,7 +11,7 @@ DEFINES=
 .SECONDARY:
 
 .PHONY: all
-all: ccs.cmd
+all: $(PROJECT).cmd
 
 .PHONY: clean
 clean:
