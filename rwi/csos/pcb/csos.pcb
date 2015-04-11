@@ -878,7 +878,7 @@ Element["lock" "" "" "" 30.0000mm 70.0000mm -160.00mil -200.00mil 0 100 ""]
 
 	)
 
-Element["hidename,lock" "HS_TO220_3.fp" "HS1" "unknown" 50.0000mm 52.5000mm -24.2497mm 10.7219mm 0 100 "selected"]
+Element["lock" "HS_TO220_3.fp" "HS1" "unknown" 50.0000mm 52.5000mm -24.2497mm 10.7219mm 0 100 "selected"]
 (
 	Pin[-500.00mil 0.0000 160.00mil 30.00mil 180.00mil 100.00mil "1" "1" "lock,edge2"]
 	Pin[500.00mil 0.0000 160.00mil 30.00mil 180.00mil 100.00mil "" "2" "lock,edge2"]
@@ -1231,7 +1231,13 @@ Element["hidename,onsolder" "TEST_PIN_1.fp" "TP3" "Imon" 73.0000mm 44.0000mm 40.
 
 Element["hidename,onsolder" "TEST_PIN_1.fp" "TP1" "Vdd" 73.0000mm 50.0000mm 40.00mil -150.00mil 2 100 "auto"]
 (
-	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "selected,thermal(2X)"]
+	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "thermal(2X)"]
+
+	)
+
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP7" "GND" 73.0000mm 56.0000mm 40.00mil -150.00mil 2 100 "auto"]
+(
+	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "thermal(1X)"]
 
 	)
 Layer(1 "top")
@@ -1425,6 +1431,7 @@ Layer(9 "silk")
 	Text[71.2500mm 45.7500mm 2 166 "Iset" "clearline,onsolder"]
 	Text[71.2500mm 48.7500mm 2 166 "Vdd" "clearline,onsolder"]
 	Text[71.2500mm 42.7500mm 2 166 "Imon" "clearline,onsolder"]
+	Text[71.2500mm 54.7500mm 2 166 "GND" "clearline,onsolder"]
 )
 Layer(10 "silk")
 (
@@ -1571,6 +1578,7 @@ NetList()
 		Connect("R1-2")
 		Connect("R5-2")
 		Connect("R8-2")
+		Connect("TP7-1")
 		Connect("U1-4")
 		Connect("U2-2")
 	)
