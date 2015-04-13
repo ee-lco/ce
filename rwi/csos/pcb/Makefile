@@ -33,7 +33,7 @@ clean:
 
 .PHONY: mrproper
 mrproper: clean
-	rm -f *.pcb.bak* *.sch
+	rm -f *.pcb.bak* *.pcb- *.sch
 
 $(PROJECT).cmd: $(PROJECT).sch
 
@@ -52,6 +52,7 @@ $(PROJECT).cmd: $(PROJECT).sch
 	@echo "SaveTo(Layout)" >> $@
 	@echo "Quit" >> $@
 	pcb --action-script $@
+	@touch $@
 
 ./$(PROJECT).INPUT.sch: ../sch/$(PROJECT).sch
 	cp $< $@
