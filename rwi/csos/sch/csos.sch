@@ -149,7 +149,7 @@ device=CONN
 T 23900 58700 5 16 1 1 0 0 1
 refdes=J1
 T 24500 58300 5 16 1 1 0 2 1
-value=VBAT+
+description=VBAT+
 T 24500 58500 5 16 1 1 0 0 1
 slot=1
 T 23900 58100 5 10 0 0 0 0 1
@@ -157,7 +157,7 @@ devmap=CamdenBoss/CTB0355/2
 T 23900 58100 5 10 0 0 0 0 1
 devmap=slots/2
 T 23900 58100 5 10 0 0 0 0 1
-net=${value}:1
+net=${description}:1
 }
 C 23900 54200 1 0 0 input-4.sym
 {
@@ -166,7 +166,7 @@ device=CONN
 T 23900 54800 5 16 1 1 0 0 1
 refdes=J2
 T 24500 54400 5 16 1 1 0 2 1
-value=VAUX-
+description=VAUX-
 T 24500 54600 5 16 1 1 0 0 1
 slot=2
 T 23900 54200 5 10 0 0 0 0 1
@@ -219,7 +219,7 @@ device=CONN
 T 61100 51800 5 16 1 1 0 6 1
 refdes=J4
 T 60500 51400 5 16 1 1 0 8 1
-value=VDD
+description=VDD
 T 60500 51600 5 16 1 1 0 6 1
 slot=1
 T 60100 51200 5 10 0 0 0 0 1
@@ -234,7 +234,7 @@ device=CONN
 T 61100 49800 5 16 0 0 0 6 1
 refdes=J4
 T 60500 49400 5 16 1 1 0 8 1
-value=GND
+description=GND
 T 60500 49600 5 16 1 1 0 6 1
 slot=3
 T 60100 49200 5 10 0 0 0 0 1
@@ -249,7 +249,7 @@ device=CONN
 T 61100 50800 5 16 0 0 0 6 1
 refdes=J4
 T 60500 50400 5 16 1 1 0 8 1
-value=TEMP
+description=TEMP
 T 60500 50600 5 16 1 1 0 6 1
 slot=2
 T 58900 50200 9 16 1 1 0 8 1
@@ -436,11 +436,11 @@ devmap=CamdenBoss/CTB0355/2
 T 23900 57300 5 10 0 0 0 0 1
 devmap=slots/2
 T 23900 57300 5 10 0 0 0 0 1
-net=${value}:1
+net=${description}:1
 T 23900 57900 5 16 1 1 0 0 1
 refdes=J2
 T 24500 57500 5 16 1 1 0 2 1
-value=VAUX+
+description=VAUX+
 T 24500 57700 5 16 1 1 0 0 1
 slot=1
 }
@@ -452,7 +452,7 @@ device=CONN
 T 23900 55800 5 16 1 1 0 0 1
 refdes=J1
 T 24500 55400 5 16 1 1 0 2 1
-value=VBAT-
+description=VBAT-
 T 24500 55600 5 16 1 1 0 0 1
 slot=2
 T 23900 55200 5 10 0 0 0 0 1

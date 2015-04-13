@@ -942,7 +942,7 @@ Element["lock" "HEADER_3S.fp" "J3" "unknown" 50.0000mm 72.5400mm -0.7500mm -8.29
 
 	)
 
-Element["lock" "TB_3.5_H_2.fp" "J2" "VAUX-" 39.5000mm 70.0000mm -4.0000mm -0.5000mm 0 100 ""]
+Element["lock" "TB_3.5_H_2.fp" "J2" "unknown" 39.5000mm 70.0000mm -4.0000mm -0.5000mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 1.8000mm 30.00mil 1.9500mm 1.1000mm "1" "1" "square,lock"]
 	Pin[3.5000mm 0.0000 1.8000mm 30.00mil 1.9500mm 1.1000mm "1" "2" "lock,thermal(1X)"]
@@ -964,7 +964,7 @@ Element["lock" "TB_3.5_H_2.fp" "J2" "VAUX-" 39.5000mm 70.0000mm -4.0000mm -0.500
 
 	)
 
-Element["lock" "TB_3.5_H_2.fp" "J1" "VBAT+" 57.0000mm 70.0000mm 6.0000mm -0.5000mm 0 100 ""]
+Element["lock" "TB_3.5_H_2.fp" "J1" "unknown" 57.0000mm 70.0000mm 6.0000mm -0.5000mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 1.8000mm 30.00mil 1.9500mm 1.1000mm "1" "1" "square,lock"]
 	Pin[3.5000mm 0.0000 1.8000mm 30.00mil 1.9500mm 1.1000mm "1" "2" "lock,thermal(1X)"]
@@ -999,7 +999,7 @@ Element["lock" "TO220AB.fp" "Q1" "BUK9575-55A" 47.4600mm 57.0000mm -90.00mil 100
 
 	)
 
-Element["lock" "HEADER_3S.fp" "J4" "VDD" 50.0000mm 33.0400mm -0.7500mm 1.7100mm 0 100 ""]
+Element["lock" "HEADER_3S.fp" "J4" "unknown" 50.0000mm 33.0400mm -0.7500mm 1.7100mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "square,lock"]
 	Pin[0.0000 -100.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "2" "lock"]
