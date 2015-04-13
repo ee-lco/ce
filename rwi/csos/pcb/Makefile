@@ -4,7 +4,13 @@ LIB_DIR=../../../lib/
 SYM_DIR=$(LIB_DIR)sym/
 FP_DIR=$(LIB_DIR)fp/
 DEV_DIR=$(LIB_DIR)dev/
-GR_DIR=~/projects/geda/geda-ruby/
+LIBGEDARUBY_DIR=~/projects/geda-tools/libgedaruby/bin/src/.libs/
+GSCHEM2PCB_DIR=~/projects/geda-tools/gschem2pcb/
+
+G2P_COND=ruby -I $(GSCHEM2PCB_DIR) -I $(GSCHEM2PCB_DIR)cond -I $(LIBGEDARUBY_DIR) $(GSCHEM2PCB_DIR)cond/cond.rb
+G2P_EXPR=ruby -I $(GSCHEM2PCB_DIR) -I $(GSCHEM2PCB_DIR)expr -I $(LIBGEDARUBY_DIR) $(GSCHEM2PCB_DIR)expr/expr.rb
+G2P_DEVMAP=ruby -I $(GSCHEM2PCB_DIR) -I $(GSCHEM2PCB_DIR)devmap -I $(LIBGEDARUBY_DIR) $(GSCHEM2PCB_DIR)devmap/devmap.rb
+G2P_PINMAP=ruby -I $(GSCHEM2PCB_DIR) -I $(GSCHEM2PCB_DIR)pinmap -I $(LIBGEDARUBY_DIR) $(GSCHEM2PCB_DIR)pinmap/pinmap.rb
 
 DEFINES=
 
@@ -47,16 +53,16 @@ $(PROJECT).cmd: $(PROJECT).sch
 	(gschlas -e $@ && rm -f $@~) || rm -f $@
 
 %.COND.sch: %.EMBED.sch
-	ruby -I $(GR_DIR)scripts/cond -I $(GR_DIR)scripts -I $(GR_DIR)src/.libs $(GR_DIR)scripts/cond/cond.rb $(foreach def,$(DEFINES),-D $(def)) < $< > $@ || rm -f $@
+	$(G2P_COND) $(foreach def,$(DEFINES),-D $(def)) < $< > $@ || rm -f $@
 
 %.EXPR.sch: %.COND.sch
-	ruby -I $(GR_DIR)scripts/expr -I $(GR_DIR)scripts -I $(GR_DIR)src/.libs $(GR_DIR)scripts/expr/expr.rb < $< > $@ || rm -f $@
+	$(G2P_EXPR) < $< > $@ || rm -f $@
 
 %.DEVMAP.sch: %.EXPR.sch
-	ruby -I $(GR_DIR)scripts/devmap -I $(GR_DIR)scripts -I $(GR_DIR)src/.libs $(GR_DIR)scripts/devmap/devmap.rb -P $(DEV_DIR) < $< > $@ || rm -f $@
+	$(G2P_DEVMAP) -P $(DEV_DIR) < $< > $@ || rm -f $@
 
 %.PINMAP.sch: %.DEVMAP.sch
-	ruby -I $(GR_DIR)scripts/pinmap -I $(GR_DIR)scripts -I $(GR_DIR)src/.libs $(GR_DIR)scripts/pinmap/pinmap.rb < $< > $@ || rm -f $@
+	$(G2P_PINMAP) < $< > $@ || rm -f $@
 
 %.sch: %.PINMAP.sch
 	cp $< $@
