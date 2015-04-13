@@ -19,6 +19,14 @@ DEFINES=
 .PHONY: all
 all: $(PROJECT).cmd
 
+.PHONY: tag
+tag: $(PROJECT).pcb
+	sed -i "s/git: [0-9a-f]\{16\}/git: $$(git rev-parse HEAD | head -c16)/" $<
+
+.PHONY: untag
+untag: $(PROJECT).pcb
+	sed -i "s/git: [0-9a-f]\{16\}/git: 0000000000000000/" $<
+
 .PHONY: clean
 clean:
 	rm -f *.gsch2pcb *.new.pcb *.cmd* *.net *~
