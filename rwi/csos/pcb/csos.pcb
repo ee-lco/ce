@@ -1050,8 +1050,8 @@ Element["onsolder" "R_0805.fp" "R6" "75k" 58.0000mm 35.0000mm 0.7500mm 1.7500mm 
 
 Element["onsolder" "D_SOD323.fp" "D1" "BAT46" 50.0000mm 50.5000mm 0.7500mm 1.7500mm 2 100 "auto"]
 (
-	Pad[0.0000 -1.4750mm 0.0000 -0.9250mm 0.5000mm 0.2500mm 0.5000mm "K" "1" "onsolder,square"]
-	Pad[0.0000 0.9250mm 0.0000 1.4750mm 0.5000mm 0.2500mm 0.5000mm "A" "2" "onsolder,square,edge2"]
+	Pad[0.0000 -1.4750mm 0.0000 -0.9250mm 0.5000mm 0.2500mm 0.5000mm "" "C" "onsolder,square"]
+	Pad[0.0000 0.9250mm 0.0000 1.4750mm 0.5000mm 0.2500mm 0.5000mm "" "A" "onsolder,square,edge2"]
 	ElementLine [0.6800mm -0.9000mm 0.6800mm 0.9000mm 0.2050mm]
 	ElementLine [-0.6800mm -0.9000mm -0.6800mm 0.9000mm 0.2050mm]
 	ElementLine [-0.6800mm -1.6200mm -0.6800mm -0.9000mm 0.2050mm]
@@ -1632,7 +1632,7 @@ NetList()
 	)
 	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("D1-2")
+		Connect("D1-A")
 		Connect("Q1-1")
 		Connect("R11-2")
 	)
@@ -1661,7 +1661,7 @@ NetList()
 	)
 	Net("unnamed_net15" "(unknown)")
 	(
-		Connect("D1-1")
+		Connect("D1-C")
 		Connect("R9-2")
 	)
 	Net("unnamed_net16" "(unknown)")
