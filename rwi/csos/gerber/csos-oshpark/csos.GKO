@@ -1,0 +1,17 @@
+G04 start of page 4 for group 4 idx 6 *
+G04 Title: Current - Sink or Swim, outline *
+G04 Creator: pcb 1.99z *
+G04 CreationDate: Tue 14 Apr 2015 12:04:08 AM GMT UTC *
+G04 For: eelco *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 3937.01 3937.01 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNOUTLINE*%
+%ADD51C,0.0197*%
+G54D51*X98425Y98425D02*Y295276D01*
+X295276D01*
+Y98425D01*
+X98425D01*
+M02*
