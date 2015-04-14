@@ -527,7 +527,7 @@ device=TESTPOINT
 T 66700 58500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 66700 58500 5 10 0 0 0 0 1
-value=Vbat
+description=Vbat
 }
 N 67000 58500 67000 58000 4
 N 67000 58000 65500 58000 4
@@ -540,7 +540,7 @@ device=TESTPOINT
 T 67000 44800 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 67000 44800 5 10 0 0 0 0 1
-value=Imon
+description=Imon
 }
 N 67000 44500 65500 44500 4
 C 49200 56000 1 0 0 testpt-1.sym
@@ -552,7 +552,7 @@ device=TESTPOINT
 T 49200 56000 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 49200 56000 5 10 0 0 0 0 1
-value=Tset
+description=Tset
 }
 N 49500 56000 49500 55300 4
 C 51700 48500 1 0 0 testpt-1.sym
@@ -564,7 +564,7 @@ device=TESTPOINT
 T 51700 48500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 51700 48500 5 10 0 0 0 0 1
-value=Iset
+description=Iset
 }
 N 52000 48500 52000 47800 4
 C 38700 58500 1 0 0 testpt-1.sym
@@ -576,7 +576,7 @@ device=TESTPOINT
 T 38700 58500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 38700 58500 5 10 0 0 0 0 1
-value=Vdd
+description=Vdd
 }
 N 39000 58500 39000 58000 4
 C 58200 51500 1 0 0 testpt-1.sym
@@ -588,7 +588,7 @@ device=TESTPOINT
 T 58200 51500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 58200 51500 5 10 0 0 0 0 1
-value=Tmon
+description=Tmon
 }
 N 58500 51500 58500 50500 4
 C 63200 42000 1 0 0 testpt-1.sym
@@ -600,6 +600,6 @@ device=TESTPOINT
 T 63200 42000 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 63200 42000 5 10 0 0 0 0 1
-value=GND
+description=GND
 }
 N 63500 42000 63500 41000 4

@@ -1050,8 +1050,8 @@ Element["onsolder" "R_0805.fp" "R6" "75k" 58.0000mm 35.0000mm 0.7500mm 1.7500mm 
 
 Element["onsolder" "D_SOD323.fp" "D1" "BAT46" 50.0000mm 50.5000mm 0.7500mm 1.7500mm 2 100 "auto"]
 (
-	Pad[0.0000 -1.4750mm 0.0000 -0.9250mm 0.5000mm 0.2500mm 0.5000mm "" "C" "onsolder,square"]
-	Pad[0.0000 0.9250mm 0.0000 1.4750mm 0.5000mm 0.2500mm 0.5000mm "" "A" "onsolder,square,edge2"]
+	Pad[0.0000 -1.4750mm 0.0000 -0.9250mm 0.5000mm 0.2500mm 0.5000mm "K" "C" "onsolder,square"]
+	Pad[0.0000 0.9250mm 0.0000 1.4750mm 0.5000mm 0.2500mm 0.5000mm "A" "A" "onsolder,square,edge2"]
 	ElementLine [0.6800mm -0.9000mm 0.6800mm 0.9000mm 0.2050mm]
 	ElementLine [-0.6800mm -0.9000mm -0.6800mm 0.9000mm 0.2050mm]
 	ElementLine [-0.6800mm -1.6200mm -0.6800mm -0.9000mm 0.2050mm]
@@ -1199,43 +1199,43 @@ Element["onsolder" "C_1206.fp" "C1" "1µ" 41.2500mm 47.0000mm -2.7500mm -0.7500m
 
 	)
 
-Element["hidename,onsolder" "TEST_PIN_1.fp" "TP6" "Tset" 2875.00mil 1600.00mil 40.00mil -150.00mil 2 100 "auto"]
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP6" "unknown" 2875.00mil 1600.00mil 40.00mil -150.00mil 2 100 "auto"]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" ""]
 
 	)
 
-Element["hidename,onsolder" "TEST_PIN_1.fp" "TP2" "Vbat" 2875.00mil 2000.00mil 40.00mil -150.00mil 2 100 "auto"]
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP2" "unknown" 2875.00mil 2000.00mil 40.00mil -150.00mil 2 100 "auto"]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" ""]
 
 	)
 
-Element["hidename,onsolder" "TEST_PIN_1.fp" "TP5" "Tmon" 2875.00mil 1500.00mil 40.00mil -150.00mil 2 100 "auto"]
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP5" "unknown" 2875.00mil 1500.00mil 40.00mil -150.00mil 2 100 "auto"]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" ""]
 
 	)
 
-Element["hidename,onsolder" "TEST_PIN_1.fp" "TP4" "Iset" 2875.00mil 1800.00mil 40.00mil -150.00mil 2 100 "auto"]
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP4" "unknown" 2875.00mil 1800.00mil 40.00mil -150.00mil 2 100 "auto"]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" ""]
 
 	)
 
-Element["hidename,onsolder" "TEST_PIN_1.fp" "TP3" "Imon" 2875.00mil 1700.00mil 40.00mil -150.00mil 2 100 "auto"]
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP3" "unknown" 2875.00mil 1700.00mil 40.00mil -150.00mil 2 100 "auto"]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" ""]
 
 	)
 
-Element["hidename,onsolder" "TEST_PIN_1.fp" "TP1" "Vdd" 2875.00mil 1900.00mil 40.00mil -150.00mil 2 100 "auto"]
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP1" "unknown" 2875.00mil 1900.00mil 40.00mil -150.00mil 2 100 "auto"]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "thermal(2X)"]
 
 	)
 
-Element["hidename,onsolder" "TEST_PIN_1.fp" "TP7" "GND" 2875.00mil 2100.00mil 40.00mil -150.00mil 2 100 "auto"]
+Element["hidename,onsolder" "TEST_PIN_1.fp" "TP7" "unknown" 2875.00mil 2100.00mil 40.00mil -150.00mil 2 100 "auto"]
 (
 	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "thermal(1X)"]
 
