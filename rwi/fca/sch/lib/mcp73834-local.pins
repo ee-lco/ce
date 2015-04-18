@@ -1,0 +1,14 @@
+l,1,VDD,pwr
+l,2,VDD,pwr
+l,-
+l,3,STAT1,out
+l,4,STAT2,out
+l,-
+l,5,TE_N,in
+r,9,VBAT,pwr
+r,10,VBAT,pwr
+r,-
+r,8,THERM,in
+r,6,PROG,in
+r,-
+r,5,VSS,in
