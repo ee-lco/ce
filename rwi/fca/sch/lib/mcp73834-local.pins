@@ -4,7 +4,7 @@ l,-
 l,3,STAT1,out
 l,4,STAT2,out
 l,-
-l,5,TE_N,in
+l,7,TE_N,in
 r,9,VBAT,pwr
 r,10,VBAT,pwr
 r,-
