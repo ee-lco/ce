@@ -10,7 +10,7 @@ value=MCP6V27
 T 52500 53300 5 10 0 0 0 0 1
 slot=1
 T 52500 53300 5 10 0 0 0 0 1
-devmap=Microchip/MCP6V27-E/SN-${slot}
+devmap=TI/LMV358ID-${slot}
 }
 C 52500 45800 1 0 0 opamp-no-supply-1.sym
 {
@@ -23,7 +23,7 @@ value=MCP6V27
 T 52500 45800 5 10 0 0 0 0 1
 slot=2
 T 52500 45800 5 10 0 0 0 0 1
-devmap=Microchip/MCP6V27-E/SN-${slot}
+devmap=TI/LMV358ID-${slot}
 }
 C 48300 47100 1 0 0 pot-4.sym
 {
