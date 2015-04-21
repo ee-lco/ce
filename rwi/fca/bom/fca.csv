@@ -1,14 +1,18 @@
-refdes:value:footprint:manuf:manuf-pn:digikey-pn:mouser-pn:farnell-pn:qty
-U1::MSOP_10.fp:Microchip:MCP73834-FCI/UN:MCP73834-FCI/UN-ND::1332162:1
-D2,D3:RED:LED_0805.fp::::::2
-C1,C2:4.7µ:C_1206.fp::::::2
-RT1:10k:R_0805.fp::::::1
-R3,R4:470R:R_0805.fp::::::2
-D1:DNP:LED_0805.fp::::::1
-J3::HEADER_3S.fp::::::1
-R1,R5,R6:2k:R_0805.fp::::::3
-J1::MOLEX_USB_MICRO_B_105017_0001.fp:Molex:105017-0001:WM1399CT-ND:538-105017-0001:2293836:1
-J2::JST_S3B_XH_A.fp:Japan Solderless Terminals:S 3B-XH-A:455-2250-ND::1516290:1
-J4::HEADER_2S.fp::::::1
-R10:0R:R_0805.fp::::::1
-R11,R2,R7,R8,R9:DNP:R_0805.fp::::::5
+refdes:value:footprint:manuf:manuf-pn:farnell-pn:qty:ordered
+C1,C2:4.7µ:C_1206.fp:::1907352:2:10
+D1:DNP:LED_0805.fp:::have:1:
+D2,D3:RED:LED_0805.fp:::2099241:2:10
+:GRN:LED_0805.fp:::2290331::10
+:BLU:LED_0805.fp:::2322075::10
+:ORA:LED_0805.fp:::2099237::10
+:YLW:LED_0805.fp:::2099242::10
+J1::MOLEX_USB_MICRO_B_105017_0001.fp:Molex:105017-0001:2293836:1:5
+J2::JST_S3B_XH_A.fp:Japan Solderless Terminals:S 3B-XH-A:1516290:1:10
+J3::HEADER_3S.fp:::have:1:
+J4::HEADER_2S.fp:::have:1:
+R1,R5,R6:2k:R_0805.fp:::2447622:3:100
+R10:0R:R_0805.fp:::have:1:
+R11,R2,R7,R8,R9:DNP:R_0805.fp:::have:5:
+R3,R4:470R:R_0805.fp:::2057693:2:50
+RT1:10k:R_0805.fp:::have:1:
+U1::MSOP_10.fp:Microchip:MCP73834-FCI/UN:1332162:1:5
