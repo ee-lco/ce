@@ -1416,7 +1416,7 @@ Layer(9 "bottom silk")
 	Arc[58.5000mm 38.0000mm 1.5000mm 1.5000mm 0.2500mm 20.00mil 180 90 "clearline,auto"]
 	Text[54.2500mm 36.0000mm 2 96 "Contextual Electronics 2015" "clearline,onsolder"]
 	Text[54.2500mm 38.0000mm 2 96 "https://github.com/ee-lco/ce/" "clearline,onsolder"]
-	Text[54.2500mm 40.0000mm 2 96 "git: 0000000000000000" "clearline,onsolder"]
+	Text[54.2500mm 40.0000mm 2 96 "git: 8e89779acf4f5af6" "clearline,onsolder"]
 )
 Layer(10 "top silk")
 (
