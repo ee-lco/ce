@@ -240,13 +240,13 @@ refdes=J2
 T 68000 53400 5 16 1 1 0 8 1
 description=VBAT+
 T 68000 53600 5 16 1 1 0 6 1
-slot=1
+slot=3
 T 67600 53200 5 10 0 0 0 0 1
-net=${description}:1
+net=${description}:${slot}
 T 67600 53200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-2x1
+devmap=slots/3
 T 67600 53200 5 10 0 0 0 0 1
-devmap=slots/2
+footprint=JST_S3B_XH_A.fp
 }
 C 67600 52200 1 0 0 output-4.sym
 {
@@ -255,20 +255,20 @@ device=OUTPUT
 T 68600 52800 5 16 0 0 0 6 1
 refdes=J2
 T 68000 52400 5 16 1 1 0 8 1
-description=VBAT-
+description=TBAT
 T 68000 52600 5 16 1 1 0 6 1
 slot=2
 T 67600 52200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-2x1
+devmap=slots/3
 T 67600 52200 5 10 0 0 0 0 1
-devmap=slots/2
+footprint=JST_S3B_XH_A.fp
 }
 N 35000 49500 36500 49500 4
 N 36500 49500 36500 47300 4
 C 36200 46700 1 0 0 gnd-1.sym
-N 66500 52500 66500 50800 4
-C 66800 50200 1 0 1 gnd-1.sym
-N 68000 52500 66500 52500 4
+N 66400 51500 66400 50800 4
+C 66700 50200 1 0 1 gnd-1.sym
+N 68000 51500 66400 51500 4
 C 34400 52200 1 0 0 input-4.sym
 {
 T 33800 52100 5 10 0 0 0 0 1
@@ -450,3 +450,20 @@ N 65500 48500 65500 48200 4
 C 65200 44700 1 0 0 gnd-1.sym
 N 65500 45300 65500 46400 4
 N 68500 46000 65500 46000 4
+C 67600 51200 1 0 0 output-4.sym
+{
+T 68200 51100 5 10 0 0 0 0 1
+device=OUTPUT
+T 68600 51800 5 16 0 0 0 6 1
+refdes=J2
+T 68000 51400 5 16 1 1 0 8 1
+description=VBAT-
+T 68000 51600 5 16 1 1 0 6 1
+slot=1
+T 67600 51200 5 10 0 0 0 0 1
+devmap=slots/3
+T 67600 51200 5 10 0 0 0 0 1
+footprint=JST_S3B_XH_A.fp
+}
+N 68000 52500 65500 52500 4
+N 65500 52500 65500 48500 4
