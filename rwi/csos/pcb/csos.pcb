@@ -1050,7 +1050,7 @@ Element["onsolder" "R_0805.fp" "R6" "75k" 58.0000mm 35.0000mm 0.7500mm 1.7500mm 
 
 Element["onsolder" "D_SOD323.fp" "D1" "BAT46" 50.0000mm 50.5000mm 0.7500mm 1.7500mm 2 100 "auto"]
 (
-	Pad[0.0000 -1.4750mm 0.0000 -0.9250mm 0.5000mm 0.2500mm 0.5000mm "K" "C" "onsolder,square"]
+	Pad[0.0000 -1.4750mm 0.0000 -0.9250mm 0.5000mm 0.2500mm 0.5000mm "C" "C" "onsolder,square"]
 	Pad[0.0000 0.9250mm 0.0000 1.4750mm 0.5000mm 0.2500mm 0.5000mm "A" "A" "onsolder,square,edge2"]
 	ElementLine [0.6800mm -0.9000mm 0.6800mm 0.9000mm 0.2050mm]
 	ElementLine [-0.6800mm -0.9000mm -0.6800mm 0.9000mm 0.2050mm]
@@ -1173,7 +1173,7 @@ Element["onsolder" "R_0805.fp" "R11" "1k" 53.0000mm 50.5000mm 1.0000mm 1.7500mm 
 
 	)
 
-Element["onsolder" "SOIC_8.fp" "U1" "MCP6V27" 59.0000mm 44.0000mm 4.2500mm -3.5000mm 2 100 "auto"]
+Element["onsolder" "SOIC_8.fp" "U1" "LMV358" 59.0000mm 44.0000mm 4.2500mm -3.5000mm 2 100 "auto"]
 (
 	Pad[-75.00mil -3.1500mm -75.00mil -1.8000mm 0.6000mm 0.2500mm 0.6000mm "OUT" "1" "onsolder,square"]
 	Pad[-25.00mil -3.1500mm -25.00mil -1.8000mm 0.6000mm 0.2500mm 0.6000mm "IN-" "2" "onsolder,square"]
