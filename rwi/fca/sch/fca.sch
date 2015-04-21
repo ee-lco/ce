@@ -244,9 +244,9 @@ slot=3
 T 67600 53200 5 10 0 0 0 0 1
 net=${description}:${slot}
 T 67600 53200 5 10 0 0 0 0 1
-devmap=slots/3
+devmap=JST/S3B-XH-A
 T 67600 53200 5 10 0 0 0 0 1
-footprint=JST_S3B_XH_A.fp
+devmap=slots/3
 }
 C 67600 52200 1 0 0 output-4.sym
 {
@@ -259,9 +259,9 @@ description=TBAT
 T 68000 52600 5 16 1 1 0 6 1
 slot=2
 T 67600 52200 5 10 0 0 0 0 1
-devmap=slots/3
+devmap=JST/S3B-XH-A
 T 67600 52200 5 10 0 0 0 0 1
-footprint=JST_S3B_XH_A.fp
+devmap=slots/3
 }
 N 35000 49500 36500 49500 4
 N 36500 49500 36500 47300 4
@@ -461,9 +461,9 @@ description=VBAT-
 T 68000 51600 5 16 1 1 0 6 1
 slot=1
 T 67600 51200 5 10 0 0 0 0 1
-devmap=slots/3
+devmap=JST/S3B-XH-A
 T 67600 51200 5 10 0 0 0 0 1
-footprint=JST_S3B_XH_A.fp
+devmap=slots/3
 }
 N 68000 52500 65500 52500 4
 N 65500 52500 65500 48500 4
