@@ -1,0 +1,9 @@
+l,1,VIN,pwr
+l,3,ENABLE,in
+b,-
+b,-
+b,2,GND,pwr
+b,-
+b,-
+r,5,VOUT,pwr
+r,4,BYPASS,io
