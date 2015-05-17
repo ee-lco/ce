@@ -1,0 +1,5 @@
+(reset-component-library)
+(reset-source-library)
+(component-library-search "../../lib/sym" "lib")
+(component-library "./sch/lib" "local")
+
