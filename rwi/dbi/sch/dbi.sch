@@ -33,6 +33,8 @@ T 94000 50300 5 10 0 0 0 0 1
 devmap=Microchip/MCP6004-E/SL-${slot}
 T 94000 50300 5 10 0 0 0 0 1
 slot=1
+T 94000 50300 5 10 0 0 0 0 1
+numslots=4
 }
 C 94700 53700 1 0 0 netname-2.sym
 {
@@ -80,6 +82,8 @@ T 102500 49500 5 10 0 0 0 0 1
 devmap=TI/LM339AD-${slot}
 T 102500 49500 5 10 0 0 0 0 1
 slot=1
+T 102500 49500 5 10 0 0 0 0 1
+numslots=4
 }
 C 103200 48400 1 0 0 gnd-1.sym
 N 103500 49000 103500 49500 4
@@ -266,7 +270,7 @@ devmap=generic/PinHeader-2x1
 T 66900 52700 5 10 0 0 0 0 1
 devmap=slots/2
 T 66900 52700 5 10 0 0 0 0 1
-net=${name}:1
+net=${name}:${slot}
 }
 C 66900 48200 1 0 0 input-4.sym
 {
@@ -283,7 +287,7 @@ devmap=generic/PinHeader-2x1
 T 66900 48200 5 10 0 0 0 0 1
 devmap=slots/2
 T 66900 48200 5 10 0 0 0 0 1
-net=${name}:1
+net=${name}:${slot}
 }
 C 68300 39700 1 0 1 gnd-1.sym
 N 80500 53700 80500 53000 4
@@ -328,7 +332,7 @@ C 68700 43500 1 0 0 testpt-1.sym
 T 68900 44200 5 10 0 0 0 0 1
 device=TESTPOINT
 T 69000 44300 5 16 1 1 0 3 1
-refdes=TP101
+refdes=TP102
 T 68700 43500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 }
@@ -338,7 +342,7 @@ C 77200 43500 1 0 0 testpt-1.sym
 T 77400 44200 5 10 0 0 0 0 1
 device=TESTPOINT
 T 77500 44300 5 16 1 1 0 3 1
-refdes=TP102
+refdes=TP103
 T 77200 43500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 }
@@ -478,6 +482,8 @@ T 94000 41800 5 10 0 0 0 0 1
 devmap=Microchip/MCP6004-E/SL-${slot}
 T 94000 41800 5 10 0 0 0 0 1
 slot=2
+T 94000 41800 5 10 0 0 0 0 1
+numslots=4
 }
 C 102500 41000 1 0 0 opamp-no-supply-1.sym
 {
@@ -491,6 +497,8 @@ T 102500 41000 5 10 0 0 0 0 1
 devmap=TI/LM339AD-${slot}
 T 102500 41000 5 10 0 0 0 0 1
 slot=2
+T 102500 41000 5 10 0 0 0 0 1
+numslots=4
 }
 C 95500 38300 1 0 0 resistor-1.sym
 {
@@ -580,6 +588,8 @@ T 96000 36200 5 16 1 1 0 2 1
 refdes=U200
 T 96000 35900 5 16 1 1 0 2 1
 value=MCP6004
+T 94000 35300 5 10 0 0 0 0 1
+numslots=4
 }
 C 102500 34500 1 0 0 opamp-no-supply-1.sym
 {
@@ -593,6 +603,8 @@ T 104500 35400 5 16 1 1 0 2 1
 refdes=U201
 T 104500 35100 5 16 1 1 0 2 1
 value=LM339
+T 102500 34500 5 10 0 0 0 0 1
+numslots=4
 }
 C 95500 31800 1 0 0 resistor-1.sym
 {
@@ -682,6 +694,8 @@ T 96000 29700 5 16 1 1 0 2 1
 refdes=U200
 T 96000 29400 5 16 1 1 0 2 1
 value=MCP6004
+T 94000 28800 5 10 0 0 0 0 1
+numslots=4
 }
 C 102500 28000 1 0 0 opamp-no-supply-1.sym
 {
@@ -695,6 +709,8 @@ T 104500 28900 5 16 1 1 0 2 1
 refdes=U201
 T 104500 28600 5 16 1 1 0 2 1
 value=LM339
+T 102500 28000 5 10 0 0 0 0 1
+numslots=4
 }
 C 107600 50400 1 0 0 output-4.sym
 {
@@ -711,7 +727,7 @@ devmap=generic/PinHeader-5x1
 T 107600 50400 5 10 0 0 0 0 1
 devmap=slots/5
 T 107600 50400 5 10 0 0 0 0 1
-net=${name}:1
+net=${name}:${slot}
 }
 C 107600 41900 1 0 0 output-4.sym
 {
@@ -728,7 +744,7 @@ devmap=generic/PinHeader-5x1
 T 107600 41900 5 10 0 0 0 0 1
 devmap=slots/5
 T 107600 41900 5 10 0 0 0 0 1
-net=${name}:1
+net=${name}:${slot}
 }
 C 107600 35400 1 0 0 output-4.sym
 {
@@ -745,7 +761,7 @@ devmap=generic/PinHeader-5x1
 T 107600 35400 5 10 0 0 0 0 1
 devmap=slots/5
 T 107600 35400 5 10 0 0 0 0 1
-net=${name}:1
+net=${name}:${slot}
 }
 C 107600 28900 1 0 0 output-4.sym
 {
@@ -762,7 +778,7 @@ devmap=generic/PinHeader-5x1
 T 107600 28900 5 10 0 0 0 0 1
 devmap=slots/5
 T 107600 28900 5 10 0 0 0 0 1
-net=${name}:1
+net=${name}:${slot}
 }
 C 107600 25700 1 0 0 output-4.sym
 {
@@ -779,8 +795,18 @@ devmap=generic/PinHeader-5x1
 T 107600 25700 5 10 0 0 0 0 1
 devmap=slots/5
 T 107600 25700 5 10 0 0 0 0 1
-net=${name}:1
+net=${name}:${slot}
 }
 C 106200 24200 1 0 0 gnd-1.sym
 N 106500 24800 106500 26000 4
 N 106500 26000 108000 26000 4
+C 68700 49000 1 0 0 testpt-1.sym
+{
+T 68900 49700 5 10 0 0 0 0 1
+device=TESTPOINT
+T 68700 49000 5 10 0 0 0 0 1
+footprint=TEST_PIN_1.fp
+T 69000 49800 5 16 1 1 0 3 1
+refdes=TP101
+}
+N 69000 49000 69000 48500 4
