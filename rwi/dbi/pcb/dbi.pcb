@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["Das Blinkinput" 100.0000mm 100.0000mm]
 
-Grid[1968.503937 0.0000 0.0000 2]
+Grid[3937.007874 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[0.2000mm 0.10mil 0.2000mm 0.2000mm 0.3000mm 0.2000mm]
@@ -786,97 +786,181 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.5000mm")
+Attribute("PCB::grid::size" "1.0000mm")
 
-Element["lock" "VBPW34SR.fp" "PD200" "VBPW34SR" 68.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+Element["onsolder" "VBPW34S.fp" "PD501" "DNP" 32.0000mm 31.0000mm 0.0000 0.0000 1 100 "auto"]
 (
-	Pad[0.0000 -3.6000mm 0.0000 -3.6000mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square,lock"]
-	Pad[0.0000 3.6000mm 0.0000 3.6000mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square,lock"]
-	ElementLine [2.0000mm -2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -2.2500mm 2.0000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -4.4000mm 1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm 2.2500mm -1.2000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm -4.4000mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm 2.2500mm -1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [1.5000mm -1.4100mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm 1.5000mm -1.4100mm 0.2050mm]
-	ElementLine [-1.5000mm 1.5900mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm -1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [0.0000 0.0900mm 0.0000 0.0900mm 0.2050mm]
-	ElementLine [0.0000 -4.9000mm 0.0000 -4.9000mm 0.4000mm]
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "onsolder,square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "onsolder,square"]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
 
 	)
 
-Element["lock" "VBPW34SR.fp" "PD300" "VBPW34SR" 56.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+Element["onsolder" "VBPW34S.fp" "PD401" "DNP" 44.0000mm 31.0000mm 0.0000 0.0000 1 100 "auto"]
 (
-	Pad[0.0000 -3.6000mm 0.0000 -3.6000mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square,lock"]
-	Pad[0.0000 3.6000mm 0.0000 3.6000mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square,lock"]
-	ElementLine [2.0000mm -2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -2.2500mm 2.0000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -4.4000mm 1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm 2.2500mm -1.2000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm -4.4000mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm 2.2500mm -1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [1.5000mm -1.4100mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm 1.5000mm -1.4100mm 0.2050mm]
-	ElementLine [-1.5000mm 1.5900mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm -1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [0.0000 0.0900mm 0.0000 0.0900mm 0.2050mm]
-	ElementLine [0.0000 -4.9000mm 0.0000 -4.9000mm 0.4000mm]
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "onsolder,square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "onsolder,square"]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
 
 	)
 
-Element["lock" "VBPW34SR.fp" "PD400" "VBPW34SR" 44.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+Element["onsolder" "VBPW34S.fp" "PD301" "DNP" 56.0000mm 31.0000mm 0.0000 0.0000 1 100 "auto"]
 (
-	Pad[0.0000 -3.6000mm 0.0000 -3.6000mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square,lock"]
-	Pad[0.0000 3.6000mm 0.0000 3.6000mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square,lock"]
-	ElementLine [2.0000mm -2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -2.2500mm 2.0000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -4.4000mm 1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm 2.2500mm -1.2000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm -4.4000mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm 2.2500mm -1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [1.5000mm -1.4100mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm 1.5000mm -1.4100mm 0.2050mm]
-	ElementLine [-1.5000mm 1.5900mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm -1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [0.0000 0.0900mm 0.0000 0.0900mm 0.2050mm]
-	ElementLine [0.0000 -4.9000mm 0.0000 -4.9000mm 0.4000mm]
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "onsolder,square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "onsolder,square"]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
 
 	)
 
-Element["lock" "VBPW34SR.fp" "PD500" "VBPW34SR" 32.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+Element["onsolder" "VBPW34S.fp" "PD201" "DNP" 68.0000mm 31.0000mm 0.0000 0.0000 1 100 "auto"]
 (
-	Pad[0.0000 -3.6000mm 0.0000 -3.6000mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square,lock"]
-	Pad[0.0000 3.6000mm 0.0000 3.6000mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square,lock"]
-	ElementLine [2.0000mm -2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -2.2500mm 2.0000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm -4.4000mm 1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [1.2000mm 2.2500mm 1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -2.0000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm 2.2500mm -1.2000mm 2.2500mm 0.2050mm]
-	ElementLine [-2.0000mm -2.2500mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm -4.4000mm -1.2000mm -2.2500mm 0.2050mm]
-	ElementLine [-1.2000mm 2.2500mm -1.2000mm 2.6000mm 0.2050mm]
-	ElementLine [1.5000mm -1.4100mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm 1.5000mm -1.4100mm 0.2050mm]
-	ElementLine [-1.5000mm 1.5900mm 1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [-1.5000mm -1.4100mm -1.5000mm 1.5900mm 0.2050mm]
-	ElementLine [0.0000 0.0900mm 0.0000 0.0900mm 0.2050mm]
-	ElementLine [0.0000 -4.9000mm 0.0000 -4.9000mm 0.4000mm]
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "onsolder,square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "onsolder,square"]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
+
+	)
+
+Element["" "VBPW34S.fp" "PD500" "VBPW34SR" 32.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+(
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square"]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
+
+	)
+
+Element["" "VBPW34S.fp" "PD400" "VBPW34SR" 44.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+(
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square"]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
+
+	)
+
+Element["" "VBPW34S.fp" "PD300" "VBPW34SR" 56.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+(
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square"]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
+
+	)
+
+Element["" "VBPW34S.fp" "PD200" "VBPW34SR" 68.0000mm 31.0000mm 0.0000 0.0000 3 100 ""]
+(
+	Pad[0.0000 -3.4200mm 0.0000 -3.4200mm 1.8000mm 0.4000mm 1.0000mm "C" "C" "square"]
+	Pad[0.0000 3.7800mm 0.0000 3.7800mm 1.8000mm 0.4000mm 1.0000mm "A" "A" "square"]
+	ElementLine [2.0000mm -2.0700mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [1.2000mm -2.0700mm 2.0000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm -4.2200mm 1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [1.2000mm 2.4300mm 1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -2.0000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm 2.4300mm -1.2000mm 2.4300mm 0.2050mm]
+	ElementLine [-2.0000mm -2.0700mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm -4.2200mm -1.2000mm -2.0700mm 0.2050mm]
+	ElementLine [-1.2000mm 2.4300mm -1.2000mm 2.7800mm 0.2050mm]
+	ElementLine [1.5000mm -1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm 1.5000mm -1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm 1.5000mm 1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [-1.5000mm -1.5000mm -1.5000mm 1.5000mm 0.2050mm]
+	ElementLine [0.0000 -4.7200mm 0.0000 -4.7200mm 0.4000mm]
 
 	)
 
@@ -1198,6 +1282,46 @@ Element["" "R_0805.fp" "R103" "10k" 62.0000mm 62.5100mm 0.0000 0.0000 1 100 ""]
 	ElementLine [-1.0300mm -0.4300mm -1.0300mm 0.4300mm 0.2050mm]
 
 	)
+
+Element["selected,onsolder" "LED_0805.fp" "PD502" "DNP" 40.0000mm 20.0000mm 0.0000 0.0000 0 100 "selected,auto"]
+(
+	Pad[-0.9500mm -0.2500mm -0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "C" "C" "onsolder,square"]
+	Pad[0.9500mm -0.2500mm 0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "A" "A" "onsolder,square"]
+	ElementLine [-1.3000mm -1.0000mm 0.5000mm -1.0000mm 0.2050mm]
+	ElementLine [0.5000mm 1.0000mm -1.3000mm 1.0000mm 0.2050mm]
+	ElementLine [-1.8000mm 0.0000 -1.8000mm 0.0000 0.4000mm]
+
+	)
+
+Element["selected,onsolder" "LED_0805.fp" "PD402" "DNP" 46.0000mm 20.0000mm 0.0000 0.0000 0 100 "selected,auto"]
+(
+	Pad[-0.9500mm -0.2500mm -0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "C" "C" "onsolder,square"]
+	Pad[0.9500mm -0.2500mm 0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "A" "A" "onsolder,square"]
+	ElementLine [-1.3000mm -1.0000mm 0.5000mm -1.0000mm 0.2050mm]
+	ElementLine [0.5000mm 1.0000mm -1.3000mm 1.0000mm 0.2050mm]
+	ElementLine [-1.8000mm 0.0000 -1.8000mm 0.0000 0.4000mm]
+
+	)
+
+Element["selected,onsolder" "LED_0805.fp" "PD302" "DNP" 52.0000mm 20.0000mm 0.0000 0.0000 0 100 "selected,auto"]
+(
+	Pad[-0.9500mm -0.2500mm -0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "C" "C" "onsolder,square"]
+	Pad[0.9500mm -0.2500mm 0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "A" "A" "onsolder,square"]
+	ElementLine [-1.3000mm -1.0000mm 0.5000mm -1.0000mm 0.2050mm]
+	ElementLine [0.5000mm 1.0000mm -1.3000mm 1.0000mm 0.2050mm]
+	ElementLine [-1.8000mm 0.0000 -1.8000mm 0.0000 0.4000mm]
+
+	)
+
+Element["selected,onsolder" "LED_0805.fp" "PD202" "DNP" 58.0000mm 20.0000mm 0.0000 0.0000 0 100 "selected,auto"]
+(
+	Pad[-0.9500mm -0.2500mm -0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "C" "C" "onsolder,square"]
+	Pad[0.9500mm -0.2500mm 0.9500mm 0.2500mm 0.9000mm 0.4000mm 0.9000mm "A" "A" "onsolder,square"]
+	ElementLine [-1.3000mm -1.0000mm 0.5000mm -1.0000mm 0.2050mm]
+	ElementLine [0.5000mm 1.0000mm -1.3000mm 1.0000mm 0.2050mm]
+	ElementLine [-1.8000mm 0.0000 -1.8000mm 0.0000 0.4000mm]
+
+	)
 Rat[47.6750mm 2400.00mil 0 46.0000mm 58.4600mm 3  ""]
 Rat[46.0000mm 58.4600mm 3 44.5750mm 60.5100mm 0  ""]
 Rat[47.6750mm 2400.00mil 0 52.8000mm 61.5100mm 0  ""]
@@ -1223,7 +1347,9 @@ Rat[37.1000mm 47.8500mm 0 25.5000mm 25.5000mm 3  "via"]
 Rat[64.2500mm 45.1750mm 0 25.5000mm 25.5000mm 3  "via"]
 Rat[38.0000mm 38.8250mm 0 25.5000mm 25.5000mm 3  "via"]
 Rat[63.9000mm 31.8500mm 0 64.5000mm 27.6500mm 0  ""]
-Rat[64.5000mm 27.6500mm 0 68.0000mm 27.4000mm 0  ""]
+Rat[64.5000mm 27.6500mm 0 68.0000mm 27.5800mm 0  ""]
+Rat[68.0000mm 27.5800mm 0 68.0000mm 27.5800mm 3  "via"]
+Rat[64.5000mm 27.6500mm 0 57.0500mm 19.7500mm 3  ""]
 Rat[63.9000mm 31.8500mm 0 35.4500mm 45.1750mm 0  ""]
 Rat[62.1000mm 31.8500mm 0 64.0000mm 35.0000mm 3  ""]
 Rat[62.1000mm 31.8500mm 0 61.5000mm 27.6500mm 0  ""]
@@ -1234,33 +1360,47 @@ Rat[75.0000mm 11.5000mm 3 58.8000mm 63.4100mm 0  ""]
 Rat[37.8000mm 62.4100mm 0 41.4250mm 62.4100mm 0  ""]
 Rat[43.9000mm 64.3100mm 0 44.5750mm 62.4100mm 0  ""]
 Rat[51.9000mm 31.8500mm 0 52.5000mm 27.6500mm 0  ""]
-Rat[52.5000mm 27.6500mm 0 56.0000mm 27.4000mm 0  ""]
+Rat[52.5000mm 27.6500mm 0 56.0000mm 27.5800mm 0  ""]
+Rat[56.0000mm 27.5800mm 0 56.0000mm 27.5800mm 3  "via"]
+Rat[52.5000mm 27.6500mm 0 51.0500mm 19.7500mm 3  ""]
 Rat[51.9000mm 31.8500mm 0 40.5500mm 45.1750mm 0  ""]
 Rat[50.1000mm 31.8500mm 0 52.0000mm 35.0000mm 3  ""]
 Rat[50.1000mm 31.8500mm 0 49.5000mm 27.6500mm 0  ""]
 Rat[52.0000mm 35.0000mm 3 61.7500mm 38.8250mm 0  ""]
 Rat[52.0000mm 35.0000mm 3 41.8000mm 45.1750mm 0  ""]
 Rat[39.9000mm 31.8500mm 0 40.5000mm 27.6500mm 0  ""]
-Rat[40.5000mm 27.6500mm 0 44.0000mm 27.4000mm 0  ""]
+Rat[40.5000mm 27.6500mm 0 44.0000mm 27.5800mm 0  ""]
+Rat[44.0000mm 27.5800mm 0 44.0000mm 27.5800mm 3  "via"]
 Rat[39.9000mm 31.8500mm 0 40.5500mm 38.8250mm 0  ""]
+Rat[44.0000mm 27.5800mm 3 45.0500mm 19.7500mm 3  ""]
 Rat[1500.00mil 31.8500mm 0 40.0000mm 35.0000mm 3  ""]
 Rat[40.0000mm 35.0000mm 3 41.8000mm 38.8250mm 0  ""]
 Rat[1500.00mil 31.8500mm 0 37.5000mm 27.6500mm 0  ""]
 Rat[41.8000mm 38.8250mm 0 60.4500mm 45.1750mm 0  ""]
 Rat[27.9000mm 30.8500mm 0 28.5000mm 27.6500mm 0  ""]
-Rat[28.5000mm 27.6500mm 0 32.0000mm 27.4000mm 0  ""]
+Rat[28.5000mm 27.6500mm 0 32.0000mm 27.5800mm 0  ""]
+Rat[32.0000mm 27.5800mm 0 32.0000mm 27.5800mm 3  "via"]
+Rat[32.0000mm 27.5800mm 3 39.0500mm 19.7500mm 3  ""]
 Rat[27.9000mm 30.8500mm 0 35.4500mm 38.8250mm 0  ""]
 Rat[26.1000mm 30.8500mm 0 25.5000mm 27.6500mm 0  ""]
 Rat[26.1000mm 30.8500mm 0 28.0000mm 35.0000mm 3  ""]
 Rat[28.0000mm 35.0000mm 3 34.2000mm 38.8250mm 0  ""]
 Rat[34.2000mm 38.8250mm 0 63.0000mm 45.1750mm 0  ""]
-Rat[68.0000mm 34.6000mm 0 56.0000mm 34.6000mm 0  ""]
-Rat[56.0000mm 34.6000mm 0 44.0000mm 34.6000mm 0  ""]
-Rat[44.0000mm 34.6000mm 0 39.2500mm 38.8250mm 0  ""]
+Rat[68.0000mm 34.7800mm 0 68.0000mm 34.7800mm 3  "via"]
+Rat[68.0000mm 34.7800mm 3 56.0000mm 34.7800mm 0  ""]
+Rat[56.0000mm 34.7800mm 0 56.0000mm 34.7800mm 3  "via"]
+Rat[56.0000mm 34.7800mm 3 44.0000mm 34.7800mm 0  ""]
+Rat[44.0000mm 34.7800mm 0 44.0000mm 34.7800mm 3  "via"]
+Rat[44.0000mm 34.7800mm 3 39.2500mm 38.8250mm 0  ""]
 Rat[39.2500mm 38.8250mm 0 36.7500mm 38.8250mm 0  ""]
-Rat[36.7500mm 38.8250mm 0 36.7500mm 45.1750mm 0  ""]
-Rat[36.7500mm 45.1750mm 0 39.2500mm 45.1750mm 0  ""]
-Rat[36.7500mm 38.8250mm 0 32.0000mm 34.6000mm 0  ""]
+Rat[36.7500mm 38.8250mm 0 32.0000mm 34.7800mm 0  ""]
+Rat[32.0000mm 34.7800mm 0 32.0000mm 34.7800mm 3  "via"]
+Rat[39.2500mm 38.8250mm 0 39.2500mm 45.1750mm 0  ""]
+Rat[39.2500mm 45.1750mm 0 36.7500mm 45.1750mm 0  ""]
+Rat[56.0000mm 34.7800mm 3 58.9500mm 19.7500mm 3  ""]
+Rat[58.9500mm 19.7500mm 3 52.9500mm 19.7500mm 3  ""]
+Rat[52.9500mm 19.7500mm 3 46.9500mm 19.7500mm 3  ""]
+Rat[46.9500mm 19.7500mm 3 40.9500mm 19.7500mm 3  ""]
 Rat[39.2500mm 45.1750mm 0 52.8000mm 63.4100mm 0  ""]
 Rat[52.8000mm 63.4100mm 0 55.8000mm 63.4100mm 0  ""]
 Rat[55.8000mm 63.4100mm 0 65.0000mm 58.4600mm 3  ""]
@@ -1300,38 +1440,38 @@ Layer(7 "outline")
 	Line[25.0000mm 25.0000mm 75.0000mm 25.0000mm 0.5000mm 20.00mil "lock"]
 	Line[75.0000mm 25.0000mm 75.0000mm 55.0000mm 0.5000mm 20.00mil "lock"]
 	Line[75.0000mm 55.0000mm 25.0000mm 55.0000mm 0.5000mm 20.00mil "lock"]
-	Line[67.0000mm 32.6000mm 69.0000mm 32.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[69.5000mm 30.1000mm 69.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[67.0000mm 29.6000mm 69.0000mm 29.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[66.5000mm 30.1000mm 66.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[55.0000mm 32.6000mm 57.0000mm 32.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[57.5000mm 30.1000mm 57.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[55.0000mm 29.6000mm 57.0000mm 29.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[54.5000mm 30.1000mm 54.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[43.0000mm 32.6000mm 45.0000mm 32.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[45.5000mm 30.1000mm 45.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[43.0000mm 29.6000mm 45.0000mm 29.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[42.5000mm 30.1000mm 42.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[31.0000mm 32.6000mm 33.0000mm 32.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[33.5000mm 30.1000mm 33.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[31.0000mm 29.6000mm 33.0000mm 29.6000mm 0.2500mm 20.00mil "clearline,lock"]
-	Line[30.5000mm 30.1000mm 30.5000mm 32.1000mm 0.2500mm 20.00mil "clearline,lock"]
-	Arc[69.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline"]
-	Arc[69.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline"]
-	Arc[67.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline"]
-	Arc[67.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline"]
-	Arc[57.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline"]
-	Arc[57.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline"]
-	Arc[55.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline"]
-	Arc[55.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline"]
-	Arc[45.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline"]
-	Arc[45.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline"]
-	Arc[43.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline"]
-	Arc[43.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline"]
-	Arc[33.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline"]
-	Arc[33.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline"]
-	Arc[31.0000mm 30.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline"]
-	Arc[31.0000mm 32.1000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline"]
+	Line[67.0000mm 32.5000mm 69.0000mm 32.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[69.5000mm 30.0000mm 69.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[67.0000mm 29.5000mm 69.0000mm 29.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[66.5000mm 30.0000mm 66.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[55.0000mm 32.5000mm 57.0000mm 32.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[57.5000mm 30.0000mm 57.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[55.0000mm 29.5000mm 57.0000mm 29.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[54.5000mm 30.0000mm 54.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[43.0000mm 32.5000mm 45.0000mm 32.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[45.5000mm 30.0000mm 45.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[43.0000mm 29.5000mm 45.0000mm 29.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[42.5000mm 30.0000mm 42.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[31.0000mm 32.5000mm 33.0000mm 32.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[33.5000mm 30.0000mm 33.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[31.0000mm 29.5000mm 33.0000mm 29.5000mm 0.2500mm 20.00mil "clearline,lock"]
+	Line[30.5000mm 30.0000mm 30.5000mm 32.0000mm 0.2500mm 20.00mil "clearline,lock"]
+	Arc[31.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline,lock"]
+	Arc[31.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline,lock"]
+	Arc[33.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline,lock"]
+	Arc[33.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline,lock"]
+	Arc[43.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline,lock"]
+	Arc[43.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline,lock"]
+	Arc[45.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline,lock"]
+	Arc[45.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline,lock"]
+	Arc[55.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline,lock"]
+	Arc[55.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline,lock"]
+	Arc[57.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline,lock"]
+	Arc[57.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline,lock"]
+	Arc[67.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline,lock"]
+	Arc[67.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline,lock"]
+	Arc[69.0000mm 30.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 180 90 "clearline,lock"]
+	Arc[69.0000mm 32.0000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 90 90 "clearline,lock"]
 )
 Layer(8 "spare")
 (
@@ -1396,6 +1536,8 @@ NetList()
 	(
 		Connect("C200-1")
 		Connect("PD200-C")
+		Connect("PD201-C")
+		Connect("PD202-C")
 		Connect("R200-1")
 		Connect("U200-2")
 	)
@@ -1431,6 +1573,8 @@ NetList()
 	(
 		Connect("C300-1")
 		Connect("PD300-C")
+		Connect("PD301-C")
+		Connect("PD302-C")
 		Connect("R300-1")
 		Connect("U200-6")
 	)
@@ -1446,6 +1590,8 @@ NetList()
 	(
 		Connect("C400-1")
 		Connect("PD400-C")
+		Connect("PD401-C")
+		Connect("PD402-C")
 		Connect("R400-1")
 		Connect("U200-9")
 	)
@@ -1461,6 +1607,8 @@ NetList()
 	(
 		Connect("C500-1")
 		Connect("PD500-C")
+		Connect("PD501-C")
+		Connect("PD502-C")
 		Connect("R500-1")
 		Connect("U200-13")
 	)
@@ -1475,9 +1623,17 @@ NetList()
 	Net("VGND" "(unknown)")
 	(
 		Connect("PD200-A")
+		Connect("PD201-A")
+		Connect("PD202-A")
 		Connect("PD300-A")
+		Connect("PD301-A")
+		Connect("PD302-A")
 		Connect("PD400-A")
+		Connect("PD401-A")
+		Connect("PD402-A")
 		Connect("PD500-A")
+		Connect("PD501-A")
+		Connect("PD502-A")
 		Connect("R101-2")
 		Connect("R102-1")
 		Connect("TP102-1")
