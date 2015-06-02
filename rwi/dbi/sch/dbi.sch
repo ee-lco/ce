@@ -32,7 +32,7 @@ value=MCP6004
 T 94000 50300 5 10 0 0 0 0 1
 devmap=Microchip/MCP6004-E/SL-${slot}
 T 94000 50300 5 10 0 0 0 0 1
-slot=1
+slot=4
 T 94000 50300 5 10 0 0 0 0 1
 numslots=4
 }
@@ -81,7 +81,7 @@ value=LM339
 T 102500 49500 5 10 0 0 0 0 1
 devmap=TI/LM339AD-${slot}
 T 102500 49500 5 10 0 0 0 0 1
-slot=1
+slot=2
 T 102500 49500 5 10 0 0 0 0 1
 numslots=4
 }
@@ -481,7 +481,7 @@ value=MCP6004
 T 94000 41800 5 10 0 0 0 0 1
 devmap=Microchip/MCP6004-E/SL-${slot}
 T 94000 41800 5 10 0 0 0 0 1
-slot=2
+slot=1
 T 94000 41800 5 10 0 0 0 0 1
 numslots=4
 }
@@ -496,7 +496,7 @@ value=LM339
 T 102500 41000 5 10 0 0 0 0 1
 devmap=TI/LM339AD-${slot}
 T 102500 41000 5 10 0 0 0 0 1
-slot=2
+slot=1
 T 102500 41000 5 10 0 0 0 0 1
 numslots=4
 }
@@ -583,7 +583,7 @@ device=OPAMP
 T 94000 35300 5 10 0 0 0 0 1
 devmap=Microchip/MCP6004-E/SL-${slot}
 T 94000 35300 5 10 0 0 0 0 1
-slot=3
+slot=2
 T 96000 36200 5 16 1 1 0 2 1
 refdes=U200
 T 96000 35900 5 16 1 1 0 2 1
@@ -598,7 +598,7 @@ device=COMPARATOR
 T 102500 34500 5 10 0 0 0 0 1
 devmap=TI/LM339AD-${slot}
 T 102500 34500 5 10 0 0 0 0 1
-slot=3
+slot=4
 T 104500 35400 5 16 1 1 0 2 1
 refdes=U201
 T 104500 35100 5 16 1 1 0 2 1
@@ -689,7 +689,7 @@ device=OPAMP
 T 94000 28800 5 10 0 0 0 0 1
 devmap=Microchip/MCP6004-E/SL-${slot}
 T 94000 28800 5 10 0 0 0 0 1
-slot=4
+slot=3
 T 96000 29700 5 16 1 1 0 2 1
 refdes=U200
 T 96000 29400 5 16 1 1 0 2 1
@@ -704,7 +704,7 @@ device=COMPARATOR
 T 102500 28000 5 10 0 0 0 0 1
 devmap=TI/LM339AD-${slot}
 T 102500 28000 5 10 0 0 0 0 1
-slot=4
+slot=3
 T 104500 28900 5 16 1 1 0 2 1
 refdes=U201
 T 104500 28600 5 16 1 1 0 2 1
