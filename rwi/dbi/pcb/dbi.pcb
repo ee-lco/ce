@@ -1787,6 +1787,14 @@ Layer(7 "outline")
 	Arc[67.0000mm 30.5000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline"]
 	Arc[31.0000mm 30.5000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 0 90 "clearline"]
 	Arc[31.0000mm 28.5000mm 0.5000mm 0.5000mm 0.2500mm 20.00mil 270 90 "clearline"]
+	Text[30.9000mm 28.0500mm 0 100 "CUT" "clearline"]
+	Text[30.9000mm 29.4000mm 0 100 "OUT" "clearline"]
+	Text[42.9000mm 28.0500mm 0 100 "CUT" "clearline"]
+	Text[42.9000mm 29.4000mm 0 100 "OUT" "clearline"]
+	Text[54.9000mm 28.0500mm 0 100 "CUT" "clearline"]
+	Text[54.9000mm 29.4000mm 0 100 "OUT" "clearline"]
+	Text[66.9000mm 28.0500mm 0 100 "CUT" "clearline"]
+	Text[66.9000mm 29.4000mm 0 100 "OUT" "clearline"]
 )
 Layer(8 "spare")
 (
